@@ -1,0 +1,166 @@
+p {
+	text-align: center;
+	color: white;
+	font-size: 50;
+}
+.PHome {
+	color: white;
+	font-weight: bold;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: -50;
+}
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 20;
+}
+.button {
+  background-color: #000000; /* Gray */
+  border: 1px solid gray;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+  background-color: #808080;
+}
+.text1 {
+	color: white;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.Criminal {
+	font-weight: bold;
+	text-align: center;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.Read_1 {
+	position: absolute;
+	left: 35;
+	top: 440;
+	
+}
+.Read_2 {
+	position: absolute;
+	right: 1140;
+	top: 440;
+}
+.Read_3 {
+	position:absolute;
+	right: 845;
+	top: 440;
+}
+.Read_4 {
+	position:absolute;
+	right: 585;
+	top: 440;
+}
+.Susan {
+	position:absolute;
+	left: 50;
+	top: 360;
+}
+.Susan_Murderer {
+	position:absolute;
+	top: 390;
+	left: 65;
+}
+.Velma {
+	position: absolute;
+	right: 1150;
+	top: 360;
+}
+.Velma_Killer {
+	position: absolute;
+	right: 1115;
+	top: 390;
+}
+.Celeste {
+	position:absolute;
+	right: 860;
+	top: 360;
+}
+.Celeste_Murderer {
+	position:absolute;
+	right: 880;
+	top: 390;
+}
+.Kathy {
+	position:absolute;
+	right: 600;
+	top: 360;
+}
+.Kathy_Group {
+	position:absolute;
+	right: 590;
+	top: 390;
+}
+.Susan_Image {
+	position: absolute;
+	top: 170;
+}
+.Velma_Image {
+	position: absolute;
+	top: 170;
+	left: 290;
+}
+.Celeste_Image {
+	position: absolute;
+	top: 170;
+	left: 580;
+}
+.Kathy_Image {
+	position: absolute;
+	top: 170;
+	right: 560;
+}
+
+
+
+
+/* Style each tab content individually */ 
+#Home {background-color: black; text-align: center;}
+#About {background-color: black;}
+#Where {background-color: black; text-align: center;}
+#Questions {background-color: gray; text-align: center;}
+

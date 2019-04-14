@@ -1,0 +1,83 @@
+h2 {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.center {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:-150;
+	border-radius: 50%;
+	
+}
+div {
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: -2;
+	animation-iteration-count: infinite;
+}
+.back {
+	display: block;
+	margin-top:-450;
+	margin-left: 150;
+	margin-right: auto;
+	width: 150;
+	height: 50;
+}
+.Soon {
+	color: white;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10;
+	
+}  
+.Menter {
+	margin-left: auto;
+	margin-top: auto;
+}
+.Menter1 {
+	margin-left: 250;
+	margin-top: -300;
+}
+.Menter2 {
+	margin-bottom: -250;
+	margin-top: -480;
+	margin-left: 1000;
+}
+.Menter3 {
+	margin-left:1200;
+	margin-bottom: 600;
+	margin-top: -1050;
+}
+.Menter4 {
+	margin-top:-1000;
+	margin-bottom:-2500;
+	margin-left: 50;
+}
+.Gallery {
+	display:block;
+	margin-top: -6;
+	margin-left: 751;
+	margin-right: auto;
+	width: 150;
+	height: 50;
+}
+.info {
+	display: block;
+	margin-top: -66;
+	margin-left: 551;
+	margin-right: auto;
+	width: 150;
+	height: 50;
+}
+.about {
+	display: block;
+	margin-top: -66;
+	margin-left: 951;
+	margin-right: auto;
+	width: 150;
+	height: 50;
+}

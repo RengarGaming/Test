@@ -1,0 +1,54 @@
+h2 {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+div {
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: -2;
+	animation-iteration-count: infinite;
+}
+.center {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:-150;
+	border-radius: 50%;
+}
+.back {
+	display: block;
+	margin-top:-450;
+	margin-left: 150;
+	margin-right: auto;
+	width: 150;
+	height: 50;
+}
+.soon {
+	color: white;
+	margin-top: 450;
+}
+.Gallery2 {
+	display: block;
+	margin-left:750;
+	margin-top:50;
+	width:150;
+	height:50;
+}
+.About {
+	text-align: center;
+	display:block;
+	margin-left: 950;
+	width: 150;
+	height: 50;
+	margin-top: -67;
+}
+.Info {
+	text-align: center;
+	display: block;
+	margin-left: 550;
+	width: 150;
+	height: 50;
+	margin-top: -67;
+}

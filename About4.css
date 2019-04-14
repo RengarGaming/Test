@@ -1,0 +1,12 @@
+.Back {
+	width: 150;
+	height: 50;
+	display: block;
+}
+p {
+	color: red;
+}
+h1 {
+	color: darkred;
+	text-align: center;
+}

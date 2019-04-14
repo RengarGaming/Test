@@ -1,0 +1,16 @@
+.Back {
+	display:block;
+	width: 150;
+	height: 50;
+}
+p {
+	color:red;
+}
+h1 {
+	color:darkred;
+	text-align: center;
+}
+.Velma {
+	margin-left: 1350;
+	margin-top: -310;
+}
