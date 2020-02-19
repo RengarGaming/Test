@@ -1,0 +1,109 @@
+.center {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:-150;
+	border-radius: 50%;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+  background-color: #808080;
+}
+.back {
+	display: block;
+	margin-top:-450;
+	margin-left: 150;
+	margin-right: auto;
+	width: 150;
+	height: 50;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+.Soon {
+	color: white;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 450;
+	
+}
+.About {
+	display: block;
+	margin-left: 550;
+	margin-top: -67;
+	width: 150;
+	height: 50;
+}
+
+.Info {	
+	display:block;
+	margin-left: 950;
+	margin-top: -65;
+	width: 150;
+	height: 50;
+}
+.Gallery3 {
+	display: block;
+	margin-left:751;
+	margin-top:50;
+	width:150;
+	height:50;
+}
+.Menter {
+	position: absolute;
+	top: 100;
+	left: 500;
+	width: 585;
+	
+}
+.Menter1 {
+	position: absolute;
+	top: 550;
+	left: 50;
+	width: 500;
+}
+.Menter2 {
+	position: absolute;
+	top: 100;
+	left: 1150;
+	width: 410;
+}
+.Menter3 {
+	position: absolute;
+	top: 100;
+	left: 50;
+	height: 400;
+}
+#Home {background-color: black; text-align: center;}
+#About {background-color: black;}
+#Where {background-color: black; text-align: center;}
+#Questions {background-color: gray; text-align: center;}

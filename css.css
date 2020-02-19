@@ -142,21 +142,42 @@ body, html {
 .Velma_Image {
 	position: absolute;
 	top: 170;
-	left: 290;
+	left: 275;
 }
 .Celeste_Image {
 	position: absolute;
 	top: 170;
-	left: 580;
+	left: 570;
 }
 .Kathy_Image {
 	position: absolute;
 	top: 170;
 	right: 560;
 }
-
-
-
+.Question1 {
+	font-size: 30;
+}
+.Question2 {
+	font-size: 30;
+}
+.Question3 {
+	font-size: 30;
+}
+.Question4 {
+	font-size: 30;
+}
+.Question5 {
+	font-size: 30;
+}
+.Question6 {
+	font-size: 30;
+}
+.Question7 {
+	font-size: 30;
+}
+.Question8 {
+	font-size: 30;
+}
 
 /* Style each tab content individually */ 
 #Home {background-color: black; text-align: center;}

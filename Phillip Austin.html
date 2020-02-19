@@ -1,0 +1,59 @@
+<html>
+<head>
+<link rel="icon" href="icon.gif">
+<link rel="stylesheet" href="Phillip Austin.css">
+<title>Phillip Austin</title>
+</head>
+<body style="background-color: black;">
+<button class="tablink" onclick="openPage('Home', this, 'black')" id="defaultOpen">Home</button> <!---Modifications for tab color -->
+<button class="tablink" onclick="openPage('About', this, 'black')">About</button>
+<button class="tablink" onclick="openPage('Gallery', this, 'black')" id="">Gallery</button>
+<button class="tablink" onclick="openPage('Info', this, 'black')">Info</button>
+<div id="Home" class="tabcontent"> <!--Div for the Home,About,Where,How and their settings -->
+<h2>Phillip Austin<h2>
+<h2>Status: British Murderer<h2>
+<img src="Phillip Austin/Phillip Austin1.jpg" width="474" height="474" border="0" alt="" class="center"/>
+</div>
+
+<div id="About" class="tabcontent" style="background-color: black;">
+
+</div>
+
+<div id="Gallery" class="tabcontent">
+<img src="Phillip Austin/Phillip Austin.jpg" width="" height="" border="0" alt="" class="Menter"/>
+<img src="Phillip Austin/Phillip Austin1.jpg" width="" height="" border="0" alt="" class="Menter1"/>
+<img src="Phillip Austin/Phillip Austin2.jpg" width="" height="" border="0" alt="" class="Menter2"/>
+<img src="Phillip Austin/Phillip Austin3.jpg" width="" height="" border="0" alt="" class="Menter3"/>
+</div>
+
+<div id="Info" class="tabcontent">
+
+</div>
+
+<script> <!--Script for Tab opening -->
+function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html>

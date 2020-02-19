@@ -3,6 +3,34 @@ h2 {
 	font-weight: bold;
 	text-align: center;
 }
+.Menter {
+	position: absolute;
+	top: 100;
+}
+.Menter1 {
+	position: absolute;
+	top: 400;
+	left: 300;
+}
+.Menter2 {
+	position: absolute;
+	top: 1100;
+	right: 1110;
+}
+.Menter3 {
+	position: absolute;
+	top: 1200;
+	right: 30;
+}
+.Menter4 {
+	position: absolute;
+	top: 1624;
+	right: 680;
+}
+.Info5 {
+	color: white;
+	family-font: bold;
+}
 .center {
 	display:block;
 	margin-left: auto;
@@ -11,12 +39,69 @@ h2 {
 	border-radius: 50%;
 	
 }
-div {
-	background-color: red;
-	animation-name: example;
-	animation-duration: 4s;
-	animation-delay: -2;
-	animation-iteration-count: infinite;
+.Info6 {
+	color: red;
+	font-size: 15;
+	text-align: left;
+}
+p {
+	color: red;
+	text-align: left;
+}
+.Text1 {
+	color: White;
+	text-align: center;
+	font-family: bold;
+	font-size: 20;
+}
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+  background-color: #808080;
+}
+.button {
+  background-color: #000000; /* Gray */
+  border: 1px solid gray;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.Text2 {
+	color: white;
+	text-align: center;
+	font-family: bold;
+	font-size: 20;
 }
 .back {
 	display: block;
@@ -35,27 +120,30 @@ div {
 	
 }  
 .Menter {
-	margin-left: auto;
-	margin-top: auto;
+	position: absolute;
+	top: 100;
 }
 .Menter1 {
-	margin-left: 250;
-	margin-top: -300;
+	position: absolute;
+	left: 536;
+	top: 100;
 }
 .Menter2 {
-	margin-bottom: -250;
-	margin-top: -480;
-	margin-left: 1000;
+	position: absolute;
+	top: 600;
+	left: 25;
 }
 .Menter3 {
-	margin-left:1200;
-	margin-bottom: 600;
-	margin-top: -1050;
+	position: absolute;
+	left: 1270;
+	top: 100;
+	height: 475;
 }
 .Menter4 {
-	margin-top:-1000;
-	margin-bottom:-2500;
-	margin-left: 50;
+	position: absolute;
+	top: 600;
+	left: 535;
+	height: 475;
 }
 .Gallery {
 	display:block;
@@ -81,3 +169,7 @@ div {
 	width: 150;
 	height: 50;
 }
+#Home {background-color: black; text-align: center;}
+#About {background-color: black;}
+#Where {background-color: black; text-align: center;}
+#Questions {background-color: black; text-align: center;}

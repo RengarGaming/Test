@@ -3,12 +3,29 @@ h2 {
 	text-align: center;
 	font-weight: bold;
 }
-div {
-	background-color: red;
-	animation-name: example;
-	animation-duration: 4s;
-	animation-delay: -2;
-	animation-iteration-count: infinite;
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
 }
 .center {
 	display:block;
@@ -52,3 +69,44 @@ div {
 	height: 50;
 	margin-top: -67;
 }
+.Menter {
+	position: absolute;
+	top: 600;
+}
+.Menter1 {
+	position: absolute;
+	left: 750;
+	width: 800;
+}
+.Menter2 {
+	position: absolute;
+	top: 100;
+	width: 700;
+}
+.Menter3 {
+	position: absolute;
+	left: 850;
+	top: 600;
+	height: 475;
+}
+.Menter4 {
+	position: absolute;
+	left: 450;
+	top: 600;
+	height: 475;
+}
+p {
+	color: red;
+}
+.Celeste {
+	position: absolute;
+	top: 100;
+	left: 1000;
+}
+h1 {
+	color: darkred;
+}
+#Home {background-color: black; text-align: center;}
+#About {background-color: black;}
+#Where {background-color: black; text-align: center;}
+#Questions {background-color: black; text-align: center;}
